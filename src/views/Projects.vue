@@ -13,7 +13,7 @@ import AllProject from '@/components/AllProject.vue'
             that not only function but also inspire life"
         </h1>
         <h1 class="text-utama font-bold">
-            <router-link :to="{ path: '/admincarousel' }" style="text-decoration: none;" class="cursor-text">
+            <router-link :to="{ path: '/login' }" style="text-decoration: none;" class="cursor-text">
                 - Tiga Interior -
             </router-link>
         </h1>

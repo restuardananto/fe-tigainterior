@@ -8,11 +8,11 @@ export const useAuthStore = defineStore("auth", () => {
   const message = ref("");
 
   const loginUser = async ({ email, password }) => {
+    const formData = new FormData();
+    formData.append("email", email);
+    formData.append("password", password);
     try {
-      const response = await api.post("/login", {
-        email: email,
-        password: password,
-      });
+      const response = await api.post("/login", formData);
       user.value = response.data;
       isLogin.value = true;
     } catch (err) {
