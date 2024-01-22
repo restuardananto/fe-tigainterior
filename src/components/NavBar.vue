@@ -3,6 +3,7 @@ import { reactive, onMounted } from 'vue'
 import { RouterLink } from 'vue-router'
 import api from '@/Api'
 import logo from '@/assets/TigaLogo.svg'
+import waLogo from '@/assets/wa-ori.svg'
 
 const whatsApp = reactive({
     number: [],
@@ -40,6 +41,9 @@ onMounted(() => {
             Projects
         </router-link>
         <button @click="handleWhatsapp"
-            class="transition ease-in-out delay-40 bg-kedua hover:scale-110 hover:bg-kedua duration-200 py-1 px-3 rounded-[25px] drop-shadow-md font-bold text-white">Contact</button>
+            class="flex items-center transition ease-in-out delay-40 bg-kedua hover:scale-110 hover:bg-kedua duration-200 py-1 px-3 rounded-[25px] drop-shadow-md font-bold text-white">
+            <img :src="waLogo" alt="Whatsapp" class="w-[20px] mr-2">
+            <p>Contact</p>
+        </button>
     </div>
 </template>

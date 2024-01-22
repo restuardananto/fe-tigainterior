@@ -4,6 +4,7 @@ import SubLogo from '@/assets/tiga-sublogo.svg'
 import Explain from '@/assets/explain.svg'
 import LastProject from '@/components/LastProject.vue'
 import Promo from '@/components/Promo.vue'
+import FloatingWhatsapp from '@/components/FloatingWhatsapp.vue'
 
 const wa = "6282158570575"
 const chat = "Halo TigaInterior - Bagaimana cara saya memesan jasa Tiga Interior"
@@ -16,6 +17,7 @@ const handleWhatsapp = () => {
 </script>
 
 <template>
+    <FloatingWhatsapp />
     <div class="container flex flex-col items-center">
         <h1 class="text-utama font-bold text-[25px] lg:text-[50px] mb-[10px] text-center">
             Designing Dreams, Building Realities
