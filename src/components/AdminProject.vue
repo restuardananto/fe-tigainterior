@@ -113,9 +113,9 @@ onMounted(async () => {
                             <span class="caret"></span>
                         </button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#" @click="dataInput.kategori = 'interior'">Interior</a>
-                            <a class="dropdown-item" href="#" @click="dataInput.kategori = 'building'">Building</a>
-                            <a class="dropdown-item" href="#" @click="dataInput.kategori = 'design'">Design</a>
+                            <a class="dropdown-item" href="#" @click="dataInput.kategori = 'desain'">Desain</a>
+                            <a class="dropdown-item" href="#" @click="dataInput.kategori = 'proses'">Proses</a>
+                            <a class="dropdown-item" href="#" @click="dataInput.kategori = 'hasil'">Hasil</a>
                         </div>
                     </div>
                 </div>

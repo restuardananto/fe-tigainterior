@@ -40,19 +40,19 @@ onMounted(() => {
     <div class="flex justify-center items-center py-2 gap-8">
         <button @click="interiorProject({ kategori: `` })"
             class="text-utama rounded-[25px] bg-abuabu py-1 px-4 hover:bg-aksen hover:scale-110 transition ease-in-out delay-40 font-bold">
-            All
+            Terbaru
         </button>
-        <button @click="interiorProject({ kategori: `interior` })"
+        <button @click="interiorProject({ kategori: `desain` })"
             class="text-utama rounded-[25px] bg-abuabu py-1 px-4 hover:bg-aksen hover:scale-110 transition ease-in-out delay-40 font-bold">
-            Interior
+            Desain
         </button>
-        <button @click="interiorProject({ kategori: `building` })"
+        <button @click="interiorProject({ kategori: `proses` })"
             class="text-utama rounded-[25px] bg-abuabu py-1 px-4 hover:bg-aksen hover:scale-110 transition ease-in-out delay-40 font-bold">
-            Building
+            Proses
         </button>
-        <button @click="interiorProject({ kategori: `design` })"
+        <button @click="interiorProject({ kategori: `hasil` })"
             class="text-utama rounded-[25px] bg-abuabu py-1 px-4 hover:bg-aksen hover:scale-110 transition ease-in-out delay-40 font-bold">
-            Design
+            Hasil
         </button>
     </div>
     <div class="max-w-full min-w-full flex flex-col justify-start py-4">

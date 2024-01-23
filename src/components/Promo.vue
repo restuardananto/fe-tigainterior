@@ -20,8 +20,10 @@ onMounted(() => {
 
 <template>
     <div class="w-full flex flex-col items-start py-2">
-        <h1 class="text-center text-utama font-semibold text-[25px]">Special Offers</h1>
-        <p class="text-center text-black text-[15px]">Limited time only</p>
+        <h1 class="text-start text-utama font-semibold text-[25px]">Penawaran Spesial</h1>
+        <p class="text-start text-black text-[15px]">
+            Waktu Terbatas! Jangan lewatkan kesempatan terbatas ini untuk memiliki interior istimewa dari Tiga Interior
+        </p>
     </div>
     <div class="max-w-full min-w-full flex scroll scroll-smooth overflow-x-scroll scrollbar-hide mb-10">
         <div class="flex items-start gap-4">

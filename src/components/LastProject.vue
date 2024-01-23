@@ -22,8 +22,10 @@ onMounted(() => {
 
 <template>
     <div class="w-full flex flex-col items-start py-2">
-        <h1 class="text-center text-utama font-semibold text-[25px]">Latest Projects</h1>
-        <p class="text-center text-black text-[15px]">Become's our latest projects</p>
+        <h1 class="text-start text-utama font-semibold text-[25px]">Projek terakhir</h1>
+        <p class="text-start text-black text-[15px]">
+            Jadi Bagian dari Proyek Terbaru Kami: Menyulap Impian Anda Menjadi Kenyataan!
+        </p>
     </div>
     <div class="max-w-full min-w-[50vw] justify-center flex scroll scroll-smooth overflow-scroll scrollbar-hide py-4 px-4">
         <div class="flex items-end gap-4">
@@ -36,8 +38,7 @@ onMounted(() => {
                         <h1 class="text-utama text-center font-semibold text-[18px]">
                             {{ 'No.' + lastPro.id }}
                         </h1>
-                        <h1
-                            class="w-[202px] min-w-[202px] max-w-[202px] text-black text-center font-semibold text-[18px]">
+                        <h1 class="w-[202px] min-w-[202px] max-w-[202px] text-black text-center font-semibold text-[18px]">
                             {{ lastPro.title.slice(0, 15) + ' ...' }}
                         </h1>
                     </div>
